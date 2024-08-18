@@ -65,7 +65,7 @@
       <a name="width" val="1"/>
     </tool>
     <tool name="Comparator">
-      <a name="width" val="16"/>
+      <a name="width" val="32"/>
     </tool>
   </lib>
   <lib desc="#Memory" name="4">
@@ -112,7 +112,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#../../../cpu/alu.circ" name="7"/>
+  <lib desc="file#D:\Grade1ss\cs61c\projs\proj3\cpu\alu.circ" name="7"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -292,7 +292,7 @@ f0f ffffbeef 1
       <a name="font" val="SansSerif plain 24"/>
       <a name="text" val="There should be no red or blue wires, and the result should not be all X's"/>
     </comp>
-    <comp lib="7" loc="(800,120)" name="alu"/>
+    <comp lib="7" loc="(840,70)" name="alu"/>
     <wire from="(1170,410)" to="(1220,410)"/>
     <wire from="(1220,410)" to="(1220,450)"/>
     <wire from="(1220,410)" to="(1230,410)"/>
@@ -318,7 +318,7 @@ f0f ffffbeef 1
     <wire from="(40,100)" to="(40,230)"/>
     <wire from="(40,230)" to="(80,230)"/>
     <wire from="(420,130)" to="(420,160)"/>
-    <wire from="(420,130)" to="(710,130)"/>
+    <wire from="(420,130)" to="(680,130)"/>
     <wire from="(490,360)" to="(510,360)"/>
     <wire from="(550,170)" to="(610,170)"/>
     <wire from="(60,270)" to="(80,270)"/>
@@ -327,6 +327,9 @@ f0f ffffbeef 1
     <wire from="(610,60)" to="(670,60)"/>
     <wire from="(670,30)" to="(670,60)"/>
     <wire from="(670,60)" to="(720,60)"/>
+    <wire from="(680,130)" to="(710,130)"/>
+    <wire from="(680,80)" to="(680,130)"/>
+    <wire from="(680,80)" to="(720,80)"/>
     <wire from="(700,170)" to="(700,240)"/>
     <wire from="(700,240)" to="(760,240)"/>
     <wire from="(710,130)" to="(710,180)"/>
